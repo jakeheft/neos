@@ -44,8 +44,6 @@ Declarative Programming:
 - Write the code you wish existed above the existing code
 - Keep the code that is currently working. Don't delete it until the new code is working. This way you will always have a passing solution
 
----
-
 Red, Green, Refactor:
 - Utilize tests to keep you moving in the right direction
 - Follow the errors in the test to guide you each step of the way
