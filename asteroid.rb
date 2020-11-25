@@ -1,10 +1,4 @@
 class Asteroid
-  def initialize(data)
-    @name = data[:name]
-    @diameter = data[:diameter]
-    @miss_distance = data[:miss_distance]
-  end
-
   def self.get_asteroids(date)
     @get_asteroids ||= service.get_asteroids(date)
   end
